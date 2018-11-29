@@ -1,0 +1,27 @@
+
+.main-header {
+    background-color: #E3B7AB;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+}
+
+.add-item {
+    color: white;
+    background-color: #90A088;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 72px;
+    margin: auto;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+}
