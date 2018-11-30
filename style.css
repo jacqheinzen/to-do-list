@@ -23,5 +23,10 @@
     flex-direction:row;
     align-items:center;
     justify-content:center;
+    padding-bottom: 10px;
     font-weight:bold;
+}
+
+.modal {
+    display: none;
 }
