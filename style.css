@@ -54,6 +54,16 @@
     width: 50%;
 }
 
-.text-input {
-    
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.list > div {
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+    background-color: #90A088;
+    margin: 5% 5%;
 }
