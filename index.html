@@ -6,19 +6,24 @@
     <script src="jquery-3.3.1.js"></script>
   </head>
   <body>
+      <div class="modal">
+        <div class="new-task">
+          <form class="task-content">
+            <label for="task">New Task</label>
+            <input type="text" class="text-input" name="task" placeholder="What needs to be done?" size="50">
+            <label for="date">Deadline (optional)</label>
+            <input type="date" class="date-input" name="date">
+            <button type="submit" class="button">Add Task</button>
+            <span class="exit-modal">&times;</span>
+          </form>
+          </div>
+        </div>
   <header class="main-header">
       <h1 class="title">To do!</h1>
       <button type="button" class="add-item">+</button>
   </header>
   <div class="list">
-  <div class="modal">
-      <div class="new-task">
-          <input type="text" class="text">
-          <input type="date">
-          <button type="submit" class="button">Submit</button>
-          <span class="exit-modal">&times;</span>
-      .</div>
-    </div>
+  </div>
   <script src="javascript.js"></script>
     </body>
 </html>
