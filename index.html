@@ -6,14 +6,20 @@
     <script src="jquery-3.3.1.js"></script>
   </head>
   <body>
-      <div class="modal">
-        <div class="new-task">
-          <form class="task-content">
-            <label for="task">New Task</label>
-            <input type="text" class="text-input" name="task" placeholder="What needs to be done?" size="50">
-            <label for="date">Deadline (optional)</label>
-            <input type="date" class="date-input" name="date">
-            <button type="submit" class="button">Add Task</button>
+    <div class="modal">
+      <div class="new-task">
+        <form class="task-content">
+         <label for="task">New Task</label>
+          <input type="text" class="text-input" name="task" placeholder="What needs to be done?" size="50">
+          <label for="date">Deadline</label>
+          <input type="date" class="date-input" name="date">
+          <label for="category" name="category">Category</label>
+          <select class="category">
+            <option value="work">Work</option>
+            <option value="social">Social</option>
+            <option value="personal">Personal</option>
+          </select>
+          <button type="submit" class="button">Add Task</button>
             <span class="exit-modal">&times;</span>
           </form>
           </div>
@@ -22,7 +28,11 @@
       <h1 class="title">To do!</h1>
       <button type="button" class="add-item">+</button>
   </header>
-  <div class="list">
+  <div class="primary-content">
+    <div class="list">
+    </div>
+    <div class="sidebar">
+    </div>
   </div>
   <script src="javascript.js"></script>
     </body>

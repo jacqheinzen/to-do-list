@@ -54,16 +54,28 @@
     width: 50%;
 }
 
+.primary-content {
+    display: flex;
+    flex-direction: row;
+}
+
 .list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 60%;
 }
 
 .list > div {
     padding: 20px;
     font-family: 'Lobster', cursive;
     background-color: #90A088;
-    margin: 5% 5%;
+    margin: 10px 10px 0px 10px;
+    width: 100%;
+}
+
+.sidebar {
+    width: 40%;
+    background-color: #C7D2C7;
+    margin: 10px 10px 0px 0px;
 }
