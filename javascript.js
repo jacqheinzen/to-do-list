@@ -9,8 +9,10 @@ $('.exit-modal').click(function() {
 $('.button').click(function() {
     event.preventDefault();
     var input = $('.text-input').val();
-    var newTask = $("<div></div>").text(input);
+    var newTask = $("<div></div>").text(input).addClass('task');
+    var checkbox = $('<input/>').attr({type: 'checkbox', name: 'chk'}).addClass('chk');
     $('.list').append(newTask);
+    $('.task').prepend(checkbox);
     $('.modal').hide(500);
 });
 
