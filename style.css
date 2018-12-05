@@ -1,9 +1,10 @@
-
 .main-header {
     background-color: #E3B7AB;
     padding: 3em;
     text-align: center;
     color: white;
+    width: 60%;
+    margin: auto;
 }
 
 .title {
@@ -57,25 +58,30 @@
 .primary-content {
     display: flex;
     flex-direction: row;
+    margin: auto;
+    width: 67.8%;
 }
 
 .list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 60%;
 }
 
 .list > div {
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     font-family: 'Lobster', cursive;
     background-color: #90A088;
     margin: 10px 10px 0px 10px;
-    width: 100%;
+    width: 95%;
+    height: 30px;
+    color: white;
 }
 
 .sidebar {
-    width: 40%;
     background-color: #C7D2C7;
-    margin: 10px 10px 0px 0px;
+    margin: 10px;
+    height: 600px;
+    width: 40%;
 }
