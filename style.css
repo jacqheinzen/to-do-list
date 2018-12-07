@@ -72,7 +72,6 @@
 .task {
     padding: 20px 0px 20px 20px;
     font-family: 'Lobster', cursive;
-    background-color: #90A088;
     margin: 10px 10px 0px 10px;
     width: 95%;
     height: 30px;
@@ -84,4 +83,16 @@
     margin: 10px;
     height: 600px;
     width: 40%;
+}
+
+.work {
+    background-color: #8B8285;
+}
+
+.personal {
+    background-color: #E3B7AB;
+}
+
+.social {
+    background-color: #90A088;
 }
