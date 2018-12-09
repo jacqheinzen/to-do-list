@@ -76,6 +76,8 @@
     width: 95%;
     height: 30px;
     color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .sidebar {
@@ -95,4 +97,9 @@
 
 .social {
     background-color: #90A088;
+}
+
+.remove {
+    margin-left: auto;
+    margin-right: 10px;
 }
