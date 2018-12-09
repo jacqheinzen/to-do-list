@@ -15,4 +15,8 @@ $('.button').click(function() {
     $('.list').append(newTask);
     $('.modal').hide(500);
 });
-//Add sub-task function to sidebar - maybe doesn't appear until you click on a task?
+
+$('.list').on("click", '.chk', function() {
+        var clicked = $(this).parent();
+        $(clicked).css({"order": "1", "text-decoration": "line-through", "opacity": ".5"});
+});
